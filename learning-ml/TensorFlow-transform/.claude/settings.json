@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python*)",
+      "Bash(pip*)",
+      "Bash(pytest*)",
+      "Bash(jupyter*)",
+      "Bash(conda*)",
+      "Bash(git*)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)*"
+    ]
+  },
+  "env": {
+    "TF_CPP_MIN_LOG_LEVEL": "2",
+    "PYTHONPATH": "${workspaceFolder}"
+  }
+}

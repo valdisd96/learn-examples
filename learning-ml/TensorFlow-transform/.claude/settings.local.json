@@ -1,0 +1,7 @@
+{
+  "enabledMcpjsonServers": [
+    "jupyter",
+    "filesystem",
+    "memory"
+  ]
+}
